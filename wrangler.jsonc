@@ -9,7 +9,18 @@
 	"compatibility_date": "2025-10-01",
 	"observability": {
 		"enabled": true
-	}
+	},
+
+	/*
+	* Key value namespace for pen of dreams backend
+	*/
+	"kv_namespaces": [
+		{
+			"binding": "POD_BLOG_CONTENT",
+			"id": "eb8a7f23cb18413ca4102826acbdc37d"
+		}
+	]
+
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
