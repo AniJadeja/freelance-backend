@@ -10,7 +10,7 @@ export async function createPost(request, env, slug) {
   try {
     // Attempt to parse the JSON body
     ( content  = await JSON.stringify(await request.json()));
-    console.log("Content adding : ",content)
+
   } catch (error) {
     // Handle case where body is not valid JSON
     return new Response(JSON.stringify({
